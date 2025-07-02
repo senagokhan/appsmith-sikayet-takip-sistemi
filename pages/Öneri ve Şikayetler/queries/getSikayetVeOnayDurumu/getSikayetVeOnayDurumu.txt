@@ -1,0 +1,13 @@
+SELECT 
+  c.id AS cevap_id,
+  c.icerik AS cevap_icerik,
+  c.yanit_veren,
+  c.yanit_tarihi,
+  s.baslik AS sikayet_baslik,
+  s.aciklama AS sikayet_aciklama,
+  o.ad AS onay_durumu
+FROM cevaplar c
+JOIN sikayetler s ON c.sikayet_id = s.id
+LEFT JOIN onay_durumlari o ON c.onay_durum_id = o.id;
+
+

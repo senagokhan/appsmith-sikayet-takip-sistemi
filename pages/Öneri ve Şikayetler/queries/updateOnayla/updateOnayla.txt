@@ -1,0 +1,3 @@
+UPDATE cevaplar
+SET onay_durum_id = 2
+WHERE id = {{ TableCevapOnay.selectedRow.cevap_id }};

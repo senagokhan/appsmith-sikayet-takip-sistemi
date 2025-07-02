@@ -1,0 +1,19 @@
+SELECT 
+  s.id AS sikayet_id,
+  s.baslik,
+  s.aciklama,
+  d.ad AS durum,
+  CASE 
+    WHEN c.onay_durum_id = 2 THEN c.icerik
+    ELSE NULL
+  END AS cevap,
+  CASE 
+    WHEN c.onay_durum_id = 2 THEN c.yanit_veren
+    ELSE NULL
+  END AS cevaplayan_ad,
+  s.sikayet_tarihi
+FROM sikayetler s
+LEFT JOIN durumlar d ON s.durum_id = d.id
+LEFT JOIN cevaplar c ON s.id = c.sikayet_id
+JOIN kisiler k ON s.kisi_id = k.id
+WHERE k.email = '{{ KullaniciMail.text }}';

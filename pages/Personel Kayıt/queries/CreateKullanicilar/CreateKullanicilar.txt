@@ -1,0 +1,9 @@
+CREATE TABLE kullanicilar (
+  id SERIAL PRIMARY KEY,
+  ad TEXT,
+  soyad TEXT,
+  email TEXT UNIQUE,
+  sifre TEXT,
+  birim TEXT,
+  rol TEXT DEFAULT 'personel'  -- 'admin' veya 'personel'
+);

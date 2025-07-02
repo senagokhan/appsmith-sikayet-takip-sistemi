@@ -1,0 +1,1 @@
+INSERT INTO public.sikayetler ("kisi_id","baslik","aciklama","sikayet_tarihi","durum_id") VALUES ('{{(Table1.newRow || {}).kisi_id}}','{{(Table1.newRow || {}).baslik}}','{{(Table1.newRow || {}).aciklama}}','{{(Table1.newRow || {}).sikayet_tarihi}}','{{(Table1.newRow || {}).durum_id}}')

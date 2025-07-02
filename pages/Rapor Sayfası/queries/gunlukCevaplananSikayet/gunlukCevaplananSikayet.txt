@@ -1,0 +1,5 @@
+SELECT COUNT(*) AS bugun_cevaplanan
+FROM sikayetler s
+JOIN durumlar d ON s.durum_id = d.id
+WHERE DATE(sikayet_tarihi) = CURRENT_DATE
+  AND LOWER(d.ad) = 'cevaplandı';

@@ -1,0 +1,1 @@
+UPDATE public.sikayetler SET "kisi_id"= '{{Table1.updatedRow.kisi_id}}', "baslik"= '{{Table1.updatedRow.baslik}}', "aciklama"= '{{Table1.updatedRow.aciklama}}', "sikayet_tarihi"= '{{Table1.updatedRow.sikayet_tarihi}}', "durum_id"= '{{Table1.updatedRow.durum_id}}' WHERE "id"= {{Table1.updatedRow.id}};

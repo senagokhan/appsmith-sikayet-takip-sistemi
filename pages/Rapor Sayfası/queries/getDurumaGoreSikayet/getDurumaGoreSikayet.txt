@@ -1,0 +1,6 @@
+SELECT 
+  d.ad AS name,
+  COUNT(s.id) AS value
+FROM sikayetler s
+JOIN durumlar d ON s.durum_id = d.id
+GROUP BY d.ad;

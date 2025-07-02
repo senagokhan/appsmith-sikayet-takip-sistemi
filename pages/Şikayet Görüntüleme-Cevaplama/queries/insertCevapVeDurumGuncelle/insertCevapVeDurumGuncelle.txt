@@ -1,0 +1,12 @@
+WITH cevap_eklendi AS (
+  INSERT INTO cevaplar (sikayet_id, yanit_veren, icerik)
+  VALUES (
+    {{ appsmith.store.aktifSikayetId }},
+    '{{ InputYanitVeren.text }}',
+    '{{ InputYanit.text }}'
+  )
+  RETURNING sikayet_id
+)
+UPDATE sikayetler
+SET durum_id = 3
+WHERE id = (SELECT sikayet_id FROM cevap_eklendi);

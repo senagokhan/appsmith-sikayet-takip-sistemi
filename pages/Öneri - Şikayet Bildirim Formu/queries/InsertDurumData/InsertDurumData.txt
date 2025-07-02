@@ -1,0 +1,4 @@
+INSERT INTO durumlar (ad) VALUES
+('Yeni'),
+('İnceleniyor'),
+('Cevaplandı');

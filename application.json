@@ -1,0 +1,43 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#D6D1F2",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Öneri - Şikayet Bildirim Formu",
+      "isDefault": true
+    },
+    {
+      "id": "Öneri ve Şikayetler",
+      "isDefault": false
+    },
+    {
+      "id": "Yetkili Giriş",
+      "isDefault": false
+    },
+    {
+      "id": "Öneri - Şikayet Durumu Sorgula",
+      "isDefault": false
+    },
+    {
+      "id": "Personel Kayıt",
+      "isDefault": false
+    },
+    {
+      "id": "Şikayet Görüntüleme-Cevaplama",
+      "isDefault": false
+    },
+    {
+      "id": "Rapor Sayfası",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  }
+}

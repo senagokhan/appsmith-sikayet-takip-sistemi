@@ -1,0 +1,7 @@
+CREATE TABLE sikayetler (
+	id SERIAL PRIMARY KEY,
+	kisi_id INTEGER REFERENCES kisiler(id),
+	baslik TEXT NOT NULL,
+	aciklama TEXT NOT NULL,
+	sikayet_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

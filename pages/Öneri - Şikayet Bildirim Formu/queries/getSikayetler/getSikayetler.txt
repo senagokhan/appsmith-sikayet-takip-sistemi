@@ -1,0 +1,4 @@
+SELECT s.id, s.baslik, s.aciklama, d.ad AS durum
+FROM sikayetler s
+JOIN durumlar d ON s.durum_id = d.id
+ORDER BY s.sikayet_tarihi DESC;

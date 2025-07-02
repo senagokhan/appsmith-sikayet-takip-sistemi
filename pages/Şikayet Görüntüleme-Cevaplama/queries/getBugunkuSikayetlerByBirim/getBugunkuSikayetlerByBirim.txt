@@ -1,0 +1,4 @@
+SELECT COUNT(*) AS bugun_sikayet
+FROM sikayetler
+WHERE atanan_birim = '{{ appsmith.store.userBirim }}'
+  AND DATE(sikayet_tarihi) = CURRENT_DATE;

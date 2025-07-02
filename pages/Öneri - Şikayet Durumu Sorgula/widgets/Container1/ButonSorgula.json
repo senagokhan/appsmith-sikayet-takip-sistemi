@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "buttonColor": "#3b82f6",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "owdt82eqff",
+  "leftColumn": 26,
+  "minWidth": 120,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "onClick": "{{ \n  KullaniciMail.text && KullaniciMail.text.trim() !== \"\" \n    ? getSikayetDurumu.run(() => {\n        if (getSikayetDurumu.data.length > 0) {\n          storeValue(\"sorgulandiMi\", true);\n        } else {\n          showAlert(\"Bu email ile kayıtlı bir şikayet bulunamadı\", \"warning\");\n          storeValue(\"sorgulandiMi\", false);\n        }\n      }) \n    : showAlert(\"Lütfen geçerli bir email giriniz\", \"error\")\n}}\n\n",
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
+  "parentColumnSpace": 5.025390625,
+  "parentId": "y2n1p7w4nk",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 39,
+  "text": "Sorgula",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "mr9fjpq9a8",
+  "widgetName": "ButonSorgula"
+}

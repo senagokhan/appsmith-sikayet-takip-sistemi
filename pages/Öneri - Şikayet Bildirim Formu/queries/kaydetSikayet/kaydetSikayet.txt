@@ -1,0 +1,26 @@
+WITH kisi_var_mi AS (
+	SELECT id FROM kisiler WHERE email = '{{InputEmail.text}}'
+),
+yeni_kisi AS (
+	INSERT INTO kisiler (ad, soyad, email, telefon)
+	SELECT '{{InputAd.text}}', '{{InputSoyad.text}}', '{{InputEmail.text}}', '{{PhoneInput1.text}}'
+	WHERE NOT EXISTS (SELECT 1 FROM kisi_var_mi)
+	RETURNING id
+),
+secilen_kisi AS (
+	SELECT id FROM yeni_kisi
+	UNION
+	SELECT id FROM kisi_var_mi
+),
+yeni_sikayet AS (
+	INSERT INTO sikayetler (kisi_id, baslik, aciklama, durum_id, kullanici_tipi)
+	VALUES (
+		(SELECT id FROM secilen_kisi),
+		'{{InputBaslik.text}}',
+		'{{InputAciklama.text}}',
+		1,
+		'{{SelectKullaniciTipi.selectedOptionValue}}'
+	)
+	RETURNING id
+)
+SELECT id FROM yeni_sikayet;

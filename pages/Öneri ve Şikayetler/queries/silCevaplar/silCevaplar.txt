@@ -1,0 +1,1 @@
+DELETE FROM cevaplar WHERE sikayet_id = {{ this.params.sikayet_id }};

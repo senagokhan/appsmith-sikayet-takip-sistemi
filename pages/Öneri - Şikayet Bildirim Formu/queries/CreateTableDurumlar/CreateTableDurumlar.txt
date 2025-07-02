@@ -1,0 +1,4 @@
+CREATE TABLE durumlar (
+  id SERIAL PRIMARY KEY,
+  ad TEXT NOT NULL
+);

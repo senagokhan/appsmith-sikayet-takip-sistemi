@@ -1,0 +1,2 @@
+INSERT INTO kullanicilar (ad, soyad, email, sifre, rol)
+VALUES ('Sena', 'Yönetici', 'admin@site.com', '1234', 'admin');

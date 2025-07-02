@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 115,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "k7qu07ifgr",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 115,
+  "originalTopRow": 15,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.9375,
+  "parentId": "yta03mb64c",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "\n<h3> ❓ Nasıl Dilek/Öneri/Şikayet Oluştururum?</h3>\n<p>\nAd, soyad, e-mail,kullanıcı tipi, telefon numarası, başlık ve açıklama alanlarını eksiksiz doldurmalısınız.<br/>\n\n\n<h3>❓ Oluşturduğum Dilek/Öneri/Şikayet Nereye Gidiyor?</h3>\n<p>\nŞikayet gerekli birime (örneğin \"Sistem Hizmetleri Şube Müdürlüğü\") iletilir.<br/>\nGörevli personel şikayetinizi değerlendirir ve yanıtlar.\n</p>\n\n\n<b>❓ \"Dilek/Öneri/Şikayetim ne kadar sürede yanıtlanır?\"</b><br/>\nGenellikle 1-3 iş günü içerisinde geri dönüş yapılmaktadır.<br/><br/>\n\n<b>❓\"Birden fazla dilek/öneri/şikayet oluşturabilir miyim?\"</b><br/>\nEvet, birden fazla dilek/öneri/şikayet oluşturabilirsiniz. Her biri ayrı ayrı değerlendirilmektedir.<br/><br/>\n\n<b>❓ \"Yanıt geldiğinde nasıl haberdar olurum?\"</b><br/>\nDilek/Öneri/Şikayet durumunuzu Öneri-Şikayet Durumu Sorgulama sayfasından görüntüleyebilirsiniz.<br/><br/>\n<b>❓ \"Öneri-Şikayet Durumu Sorgulama sayfasında nasıl dilek/öneri/şikayet durumumu sorgulayabilirim?\"</b><br/>\nDilek/Öneri/Şikayet durumunuzu Öneri-Şikayet Durumu Sorgulama sayfasındaki email alanına şikayette bulunduğunuz mail adresinizi girerek görüntüleyebilirsiniz.<br/><br/>\n\n<b>❓ \"Bilgilerim güvenli mi?\"</b><br/>\nKişisel bilgileriniz sadece yetkili birim tarafından görülür.\n\n\n",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 15,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "vfh27gt09k",
+  "widgetName": "TextAciklama"
+}

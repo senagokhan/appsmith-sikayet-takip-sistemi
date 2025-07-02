@@ -1,0 +1,1 @@
+INSERT INTO public.kisiler ("ad","soyad","email","telefon","kayit_tarihi") VALUES ('{{(Table1.newRow || {}).ad}}','{{(Table1.newRow || {}).soyad}}','{{(Table1.newRow || {}).email}}','{{(Table1.newRow || {}).telefon}}','{{(Table1.newRow || {}).kayit_tarihi}}')

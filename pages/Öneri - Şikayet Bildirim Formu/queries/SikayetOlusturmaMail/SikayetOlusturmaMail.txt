@@ -1,0 +1,17 @@
+Sayın {{InputAd.text}} {{InputSoyad.text}},
+
+Tarafımıza iletmiş olduğunuz şikayet başarılı bir şekilde sistemimize kaydedilmiştir.
+
+Şikayet Bilgileriniz:
+- Şikayet Takip Numarası: {{kaydetSikayet.data[0].id}}
+- Başlık: {{InputBaslik.text}}
+- Açıklama: {{InputAciklama.text}}
+- Kullanıcı Tipi: {{SelectKullaniciTipi.selectedOptionValue}}
+- Telefon: {{PhoneInput1.text}}
+- E-posta: {{InputEmail.text}}
+
+En kısa sürede tarafınıza geri dönüş yapılacaktır.
+
+İyi günler dileriz.
+
+(Not: Bu e-posta otomatik olarak gönderilmiştir, lütfen yanıtlamayınız.)

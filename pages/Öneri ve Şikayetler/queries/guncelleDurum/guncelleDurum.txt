@@ -1,0 +1,3 @@
+UPDATE sikayetler 
+SET durum_id = {{ Table1.selectedRow.durumSec }} 
+WHERE id = {{ Table1.selectedRow.sikayet_id }};

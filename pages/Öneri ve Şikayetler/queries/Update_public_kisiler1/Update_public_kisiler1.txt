@@ -1,0 +1,1 @@
+UPDATE public.kisiler SET "ad"= '{{Table1.updatedRow.ad}}', "soyad"= '{{Table1.updatedRow.soyad}}', "email"= '{{Table1.updatedRow.email}}', "telefon"= '{{Table1.updatedRow.telefon}}', "kayit_tarihi"= '{{Table1.updatedRow.kayit_tarihi}}' WHERE "id"= {{Table1.updatedRow.id}};

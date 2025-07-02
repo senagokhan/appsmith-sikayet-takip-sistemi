@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6823729813da80740beca2dd_6d61141b-b995-42ec-b7ed-d167a331fbc1",
+  "id": "Personel Kayıt_JSInsertPersonel",
+  "unpublishedCollection": {
+    "name": "JSInsertPersonel",
+    "pageId": "Personel Kayıt",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

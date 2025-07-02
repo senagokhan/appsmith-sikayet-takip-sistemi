@@ -1,0 +1,7 @@
+CREATE TABLE cevaplar (
+  id SERIAL PRIMARY KEY,
+  sikayet_id INTEGER REFERENCES sikayetler(id),
+  yanit_veren TEXT,
+  icerik TEXT,
+  yanit_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

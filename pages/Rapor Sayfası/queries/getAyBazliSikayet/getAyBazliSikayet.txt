@@ -1,0 +1,6 @@
+SELECT 
+  TO_CHAR(DATE_TRUNC('month', sikayet_tarihi), 'YYYY-MM') AS name,
+  COUNT(*) AS value
+FROM sikayetler
+GROUP BY DATE_TRUNC('month', sikayet_tarihi)
+ORDER BY name;

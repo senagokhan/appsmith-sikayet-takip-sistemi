@@ -1,0 +1,1 @@
+SELECT DISTINCT atanan_birim FROM sikayetler;

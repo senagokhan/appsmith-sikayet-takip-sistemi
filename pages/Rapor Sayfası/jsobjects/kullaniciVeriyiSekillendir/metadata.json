@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6823729813da80740beca2dd_09fb160f-47d3-4e84-8b91-4a3c3fafae86",
+  "id": "Rapor Sayfası_kullaniciVeriyiSekillendir",
+  "unpublishedCollection": {
+    "name": "kullaniciVeriyiSekillendir",
+    "pageId": "Rapor Sayfası",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "kullaniciTipleri",
+        "value": "{\n  ogrenci: \"Öğrenci\",\n  akademik_personel: \"Akademik Personel\",\n  idari_personel: \"İdari Personel\",\n  dis_paydas: \"Dış Paydaş\"\n}"
+      }
+    ]
+  }
+}

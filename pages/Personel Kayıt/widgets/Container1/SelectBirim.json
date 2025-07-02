@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "54afuai026",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Birim",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 13,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 19,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 27,
+  "originalTopRow": 20,
+  "parentColumnSpace": 7.1171875,
+  "parentId": "u3ecat4d1o",
+  "parentRowSpace": 10,
+  "placeholderText": "Seçiniz",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 49,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Yazılım Hizmetleri Şube Müdürlüğü\", \"value\": \"yazilim\" },\n  { \"label\": \"Sistem Hizmetleri Şube Müdürlüğü\", \"value\": \"sistem\" },\n  { \"label\": \"Donanım ve Teknik Hizmetler Şube Müdürlüğü\", \"value\": \"donanim_teknik\" },\n  { \"label\": \"İdari Hizmetler Şube Müdürlüğü\", \"value\": \"idari\" },\n  { \"label\": \"Ağ Hizmetleri Şube Müdürlüğü\", \"value\": \"ag_hizmetleri\" },\n  { \"label\": \"Genel\", \"value\": \"genel\" }\n]\n",
+  "topRow": 24,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "wmlpa7g58y",
+  "widgetName": "SelectBirim"
+}

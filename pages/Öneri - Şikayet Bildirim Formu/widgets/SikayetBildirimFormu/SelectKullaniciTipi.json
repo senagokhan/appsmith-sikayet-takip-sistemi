@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "oeohie3coa",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Kullanıcı Tipi",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 6,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 40,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 33,
+  "originalTopRow": 26,
+  "parentColumnSpace": 8.974609375,
+  "parentId": "t6grrr5yoz",
+  "parentRowSpace": 10,
+  "placeholderText": "Seçiniz",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 57,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"name\": \"Akademik Personel\", \"code\": \"akademik_personel\" },\n  { \"name\": \"İdari Personel\", \"code\": \"idari_personel\" },\n  { \"name\": \"Öğrenci\", \"code\": \"ogrenci\" },\n  { \"name\": \"Dış Paydaş\", \"code\": \"dis_paydas\" }\n]",
+  "topRow": 26,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "io6pww7413",
+  "widgetName": "SelectKullaniciTipi"
+}

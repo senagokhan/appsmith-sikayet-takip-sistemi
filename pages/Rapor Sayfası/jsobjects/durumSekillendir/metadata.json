@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6823729813da80740beca2dd_9824e0da-eaf6-47d0-99ec-1d29814df8ab",
+  "id": "Rapor Sayfası_durumSekillendir",
+  "unpublishedCollection": {
+    "name": "durumSekillendir",
+    "pageId": "Rapor Sayfası",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "durumEtiketleri",
+        "value": "{\n  yeni: \"Yeni\",\n  cevaplandı: \"Geri Dönüş Yapıldı\"\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+SELECT * FROM sikayetler
+WHERE atanan_birim = '{{ appsmith.store.aktifPersonel.birim }}';

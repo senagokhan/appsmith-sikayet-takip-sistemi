@@ -1,0 +1,16 @@
+SELECT 
+  s.id AS sikayet_id,
+  s.baslik,
+  s.aciklama,
+  s.kullanici_tipi,
+  s.durum_id,
+  s.atanan_birim,
+  d.ad AS durum,
+  k.ad,
+  k.soyad,
+  k.email,
+  k.telefon
+FROM sikayetler s
+JOIN kisiler k ON k.id = s.kisi_id
+LEFT JOIN durumlar d ON s.durum_id = d.id
+WHERE s.atanan_birim = {{ appsmith.store.aktifPersonel.birim }}

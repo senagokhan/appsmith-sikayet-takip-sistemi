@@ -1,0 +1,5 @@
+SELECT 
+  s.kullanici_tipi AS name,
+  COUNT(*) AS value
+FROM sikayetler s
+GROUP BY s.kullanici_tipi;

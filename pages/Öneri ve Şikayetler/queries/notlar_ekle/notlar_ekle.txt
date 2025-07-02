@@ -1,0 +1,8 @@
+CREATE TABLE notlar (
+  id SERIAL PRIMARY KEY,
+  sikayet_id INT NOT NULL,
+  not_metni TEXT,
+  yazan_rol VARCHAR(50), 
+  yazan_email VARCHAR(255),
+  tarih TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

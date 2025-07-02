@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6823729813da80740beca2dd_7c1ad3e0-88c1-40fa-af88-c2d57b78cbd4",
+  "id": "Rapor Sayfası_veriyiSekillendir",
+  "unpublishedCollection": {
+    "name": "veriyiSekillendir",
+    "pageId": "Rapor Sayfası",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "birimAdlari",
+        "value": "{\n  ag_hizmetleri: \"Ağ\",\n  yazilim: \"Yazılım\",\n  donanim_teknik: \"Donanım\",\n  idari: \"İdari\",\n  sistem: \"Sistem\",\n  genel: \"Genel\"\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS bugun_sikayet
+FROM sikayetler
+WHERE DATE(sikayet_tarihi) = CURRENT_DATE;

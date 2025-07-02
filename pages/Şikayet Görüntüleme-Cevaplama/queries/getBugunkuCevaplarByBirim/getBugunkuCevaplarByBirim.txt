@@ -1,0 +1,5 @@
+SELECT COUNT(*) AS bugun_cevaplanan
+FROM cevaplar c
+JOIN sikayetler s ON c.sikayet_id = s.id
+WHERE s.atanan_birim = '{{ appsmith.store.userBirim }}'
+  AND DATE(c.yanit_tarihi) = CURRENT_DATE;

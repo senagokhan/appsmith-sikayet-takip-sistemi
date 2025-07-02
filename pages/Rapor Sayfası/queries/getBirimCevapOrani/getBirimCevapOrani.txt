@@ -1,0 +1,23 @@
+SELECT 
+  CASE s.atanan_birim
+    WHEN 'yazilim' THEN 'Yazılım Hizmetleri Şube Müdürlüğü'
+    WHEN 'sistem' THEN 'Sistem Hizmetleri Şube Müdürlüğü'
+    WHEN 'donanim_teknik' THEN 'Donanım ve Teknik Hizmetler Şube Müdürlüğü'
+    WHEN 'idari' THEN 'İdari Hizmetler Şube Müdürlüğü'
+    WHEN 'ag_hizmetleri' THEN 'Ağ Hizmetleri Şube Müdürlüğü'
+    WHEN 'genel' THEN 'Genel'
+    ELSE 'Bilinmeyen'
+  END AS birim_adi,
+
+  COUNT(s.id) AS toplam_sikayet,
+  COUNT(c.id) AS cevaplanan_sikayet,
+  COUNT(s.id) - COUNT(c.id) AS cevaplanmayan_sikayet,
+  ROUND(
+    COUNT(c.id)::decimal / NULLIF(COUNT(s.id), 0) * 100, 
+    1
+  ) AS cevap_yuzdesi
+
+FROM sikayetler s
+LEFT JOIN cevaplar c ON c.sikayet_id = s.id
+WHERE s.atanan_birim IS NOT NULL AND s.atanan_birim <> ''
+GROUP BY s.atanan_birim;

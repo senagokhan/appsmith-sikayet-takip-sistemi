@@ -1,0 +1,7 @@
+SELECT 
+  atanan_birim AS name,
+  COUNT(*) AS value
+FROM sikayetler
+WHERE atanan_birim IS NOT NULL
+GROUP BY atanan_birim;
+

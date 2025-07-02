@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8rzobs9v65",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "originalBottomRow": 8,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.5,
+  "parentId": "4ws9di5vs4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "<span style=\"font-weight: 600; font-size: 16px;\">Bağlı Olduğunuz Birim</span><br/>\n<span style=\"color:#3b82f6; font-size: 16px;\">{{\n    {\n      \"yazilim\": \"Yazılım Hizmetleri Şube Müdürlüğü\",\n      \"sistem\": \"Sistem Hizmetleri Şube Müdürlüğü\",\n      \"donanim_teknik\": \"Donanım ve Teknik Hizmetler Şube Müdürlüğü\",\n      \"idari\": \"İdari Hizmetler Şube Müdürlüğü\",\n      \"ag_hizmetleri\": \"Ağ Hizmetleri Şube Müdürlüğü\",\n      \"genel\": \"Genel\"\n    }[appsmith.store.aktifPersonel?.birim] || \"Birim bilinmiyor\"\n  }}\n</span>",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 1,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "js6myqbrro",
+  "widgetName": "Text3"
+}

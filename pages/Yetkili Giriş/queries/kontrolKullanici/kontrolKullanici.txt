@@ -1,0 +1,3 @@
+SELECT * FROM kullanicilar
+WHERE email = '{{ InputMail.text }}'
+  AND sifre = '{{ InputSifre.text }}';

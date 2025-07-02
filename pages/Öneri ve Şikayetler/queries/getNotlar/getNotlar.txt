@@ -1,0 +1,3 @@
+SELECT * FROM notlar
+WHERE sikayet_id = {{ Table1.selectedRow.sikayet_id }}
+ORDER BY tarih DESC;
