@@ -1,9 +1,9 @@
 INSERT INTO kullanicilar (ad, soyad, email, sifre, birim, rol)
 VALUES (
-  '{{ InputAd.text }}',
-  '{{ InputSoyad.text }}',
-  '{{ InputEmail.text }}',
-  '{{ InputSifre.text }}',
-  '{{ SelectBirim.selectedOptionValue }}',
-  'personel'
+	'{{ InputAd.text }}',
+	'{{ InputSoyad.text }}',
+	'{{ InputEmail.text }}',
+	crypt('{{ InputSifre.text }}', gen_salt('bf')),
+	'{{ SelectBirim.selectedOptionValue }}',
+	'personel'
 );
