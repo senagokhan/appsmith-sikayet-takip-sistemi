@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "ayBazliVeriyiSekillendir.data",
     "name": "data",
     "pageId": "Rapor Sayfası",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

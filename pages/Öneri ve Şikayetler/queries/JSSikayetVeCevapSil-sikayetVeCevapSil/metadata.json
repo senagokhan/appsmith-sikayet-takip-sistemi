@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSSikayetVeCevapSil.sikayetVeCevapSil",
     "name": "sikayetVeCevapSil",
     "pageId": "Öneri ve Şikayetler",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSInsertPersonel.personelKayit",
     "name": "personelKayit",
     "pageId": "Personel Kayıt",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "getKullaniciTipineGore",
     "pageId": "Rapor Sayfası",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

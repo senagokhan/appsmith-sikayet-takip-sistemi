@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "veriyiSekillendir.seriesData",
     "name": "seriesData",
     "pageId": "Rapor Sayfası",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

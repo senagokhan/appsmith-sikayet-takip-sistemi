@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "birim",
     "pageId": "Şikayet Görüntüleme-Cevaplama",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

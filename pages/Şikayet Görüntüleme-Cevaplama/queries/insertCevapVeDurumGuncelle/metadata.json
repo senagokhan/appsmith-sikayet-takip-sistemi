@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "insertCevapVeDurumGuncelle",
     "pageId": "Şikayet Görüntüleme-Cevaplama",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

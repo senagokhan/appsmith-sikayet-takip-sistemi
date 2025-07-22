@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "notlar_ekle",
     "pageId": "Öneri ve Şikayetler",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

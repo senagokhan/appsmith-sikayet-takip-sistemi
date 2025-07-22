@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "name": "getBugunkuSikayetlerByBirim",
     "pageId": "Şikayet Görüntüleme-Cevaplama",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

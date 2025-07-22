@@ -36,9 +36,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "SikayetOlusturmaMail",
     "pageId": "Öneri - Şikayet Bildirim Formu",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

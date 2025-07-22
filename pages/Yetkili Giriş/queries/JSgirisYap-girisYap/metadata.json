@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSgirisYap.girisYap",
     "name": "girisYap",
     "pageId": "Yetkili Giriş",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSCikis.cikisYap",
     "name": "cikisYap",
     "pageId": "Şikayet Görüntüleme-Cevaplama",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

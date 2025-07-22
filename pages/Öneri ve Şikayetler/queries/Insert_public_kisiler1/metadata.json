@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "Insert_public_kisiler1",
     "pageId": "Öneri ve Şikayetler",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

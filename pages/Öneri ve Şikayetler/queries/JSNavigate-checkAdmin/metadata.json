@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "fullyQualifiedName": "JSNavigate.checkAdmin",
     "name": "checkAdmin",
     "pageId": "Öneri ve Şikayetler",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

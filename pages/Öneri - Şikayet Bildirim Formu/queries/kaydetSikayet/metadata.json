@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "kaydetSikayet",
     "pageId": "Öneri - Şikayet Bildirim Formu",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

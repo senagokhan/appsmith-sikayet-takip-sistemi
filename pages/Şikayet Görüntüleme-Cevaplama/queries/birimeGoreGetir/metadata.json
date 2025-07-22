@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "birimeGoreGetir",
     "pageId": "Şikayet Görüntüleme-Cevaplama",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

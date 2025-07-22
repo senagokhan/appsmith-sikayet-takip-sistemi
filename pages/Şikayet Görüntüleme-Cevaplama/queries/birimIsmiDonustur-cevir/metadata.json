@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "birimIsmiDonustur.cevir",
     "name": "cevir",
     "pageId": "Şikayet Görüntüleme-Cevaplama",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

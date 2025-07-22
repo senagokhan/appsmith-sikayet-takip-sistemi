@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "CreateTableKisiler",
     "pageId": "Öneri - Şikayet Bildirim Formu",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

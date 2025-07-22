@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "updateOnayla",
     "pageId": "Öneri ve Şikayetler",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

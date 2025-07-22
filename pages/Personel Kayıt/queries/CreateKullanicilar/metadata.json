@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "CreateKullanicilar",
     "pageId": "Personel Kayıt",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "fullyQualifiedName": "girisYap.kontrolRaporErisimi",
     "name": "kontrolRaporErisimi",
     "pageId": "Rapor Sayfası",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

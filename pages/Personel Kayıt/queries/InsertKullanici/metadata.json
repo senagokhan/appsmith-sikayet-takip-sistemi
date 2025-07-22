@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "InsertKullanici",
     "pageId": "Personel Kayıt",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "fullyQualifiedName": "JSsorgulama.resetSorgulama",
     "name": "resetSorgulama",
     "pageId": "Öneri - Şikayet Durumu Sorgula",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
     "fullyQualifiedName": "JSNavigate.checkPersonelGiris",
     "name": "checkPersonelGiris",
     "pageId": "Şikayet Görüntüleme-Cevaplama",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }
